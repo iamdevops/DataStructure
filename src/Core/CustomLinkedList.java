@@ -8,7 +8,7 @@ import java.util.ListIterator;
 /**
  * Created by Vivek on 1/24/2014.
  */
-public class LinkedList implements List
+public class CustomLinkedList implements List
 {
     @Override
     public int size()
@@ -143,7 +143,7 @@ public class LinkedList implements List
     }
 
     @Override
-    public T[] toArray(Object[] a)
+    public Object[] toArray(Object[] a)
     {
         return new T[0];
     }
