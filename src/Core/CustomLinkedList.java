@@ -145,6 +145,6 @@ public class CustomLinkedList implements List
     @Override
     public Object[] toArray(Object[] a)
     {
-        return new T[0];
+        return a;
     }
 }
